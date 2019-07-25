@@ -46,22 +46,22 @@ To identify crop arears in the Kamala Catchment, Nepal, using **Machine Learning
 
 
 # My Digital Toolbox
-* Python - `Matplotlib`, `Numpy`, `Geopands`(Basics of GIS), `EO - Learn` (Earth observation and remote sensing), `Sklearn` and `LightGBM` (ML).
+* Python - `Matplotlib`, `Numpy`, `Geopandas`(Basics of GIS), `EO - Learn` (Earth observation and remote sensing), `Sklearn` and `LightGBM` (ML).
 
 # My time went ...
 
 - I spent the most of my time in data preparation and manipulation. 
 - The most challenges were to clean and reshape
   
-      **5D dataset (pixel, time, x and y coordinates, features)** into 
+    **5D dataset (pixel, time, x and y coordinates, features)** into 
       
-      **2D (pixel * (x,y), time * features)**
+    **2D (pixel * (x,y), time * features)**
       
-- 8 features for eace pixel
+- 8 features for each pixel
         
-      **Spectral Channels (B02, B03, B04, B08, B11, B12)** &
+    **Spectral Channels (B02, B03, B04, B08, B11, B12)** &
       
-      **2 calculated indices (Normalized Difference *Vegetation* and *Water* Index)**
+    **2 calculated indices (Normalized Difference *Vegetation* and *Water* Index)**
 
 
 # Data Processing
